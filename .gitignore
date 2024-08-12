@@ -1,6 +1,9 @@
+# Ignore Visual Studio Code configuration
 .vscode/
 
+# Ignore build directory
 build/
 
+# Ignore other temporary files
 *.log
 *.tmp
