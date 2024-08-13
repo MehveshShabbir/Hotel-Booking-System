@@ -3,6 +3,8 @@
 
 # Ignore build directory
 build/
+*.o
+*.exe
 
 # Ignore other temporary files
 *.log

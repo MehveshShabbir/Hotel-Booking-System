@@ -1,29 +1,20 @@
 #include <iostream>
-#include <fstream>
-#include <string>
+#include "HotelManagement.h" 
+#include "Booking.h"
 
 int main() {
-    // Writing to a file
-    std::ofstream outFile("data.txt");
-    if (outFile.is_open()) {
-        outFile << "Hello, this is a sample text.\n";
-        outFile << "This is a new line in the text file.\n";
-        outFile.close();
-    } else {
-        std::cerr << "Unable to open file for writing.\n";
-    }
+   HotelManagement hotel;
 
-    // Reading from a file
-    std::ifstream inFile("data.txt");
-    std::string line;
-    if (inFile.is_open()) {
-        while (std::getline(inFile, line)) {
-            std::cout << line << '\n';
-        }
-        inFile.close();
-    } else {
-        std::cerr << "Unable to open file for reading.\n";
-    }
+    hotel.checkAvailability();
+    hotel.bookRoom();
+    hotel.manageDetails();
+
+    Booking booking;
+    booking.createBooking(1, "John Doe", 101, "Deluxe", "2024-08-15", "2024-08-20");
+    booking.displayBookingDetails();
+    booking.updateBooking("Jane Smith", "Suite", "2024-08-16", "2024-08-21");
+    booking.displayBookingDetails();
+    booking.cancelBooking();
 
     return 0;
 }
