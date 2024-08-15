@@ -1,8 +1,8 @@
 -----Menu------
 	Monday : Chicken
 	Tuesday : Vegetables
-	Wednesday : tikka
-	Thursday : Cereals
+	Wednesday : Tikka Karahi
+	Thursday : Cereals & Veg
 	Friday : Mutton
-	Saturday : Grill
+	Saturday : Grilled Fish
 	Sunday : Outdoor
