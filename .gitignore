@@ -9,3 +9,4 @@ build/
 # Ignore other temporary files
 *.log
 *.tmp
+*.gitignore
