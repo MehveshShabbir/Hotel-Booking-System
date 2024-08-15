@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
-    <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo">
+    <img width=200px height=200px src="https://th.bing.com/th/id/OIP.sS1nDwvglmgQFlpLURaNfwHaHa?rs=1&pid=ImgDetMain" alt="Project logo">
   </a>
 </p>
 
@@ -17,7 +17,7 @@
 
 ---
 
-<p align="center"> A C++ hotel booking system utilizing Object-Oriented Programming and file handling to manage bookings, customer data, and hotel information.
+<p align="center"> A basic C++ hotel booking system utilizing Object-Oriented Programming and file handling to manage bookings, customer data, and hotel information.
     <br> 
 </p>
 
@@ -44,6 +44,7 @@ These instructions will help you get a copy of the project up and running on you
 
 You need to have the following installed:
 - [g++](https://gcc.gnu.org/) - C++ Compiler
+-  [Visual Studio Code](https://code.visualstudio.com/) or another code editor of your choice
 
 ### Installing
 
@@ -51,7 +52,7 @@ To get the development environment running, follow these steps:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/Hotel-Booking-System.git
+    git clone https://github.com/MehveshShabbir/Hotel-Booking-System.git
     ```
 
 2. **Navigate to the Project Directory:**
@@ -108,13 +109,8 @@ Contributions are welcome. Please submit a pull request with your changes and in
 
 ## ✨ Authors <a name = "authors"></a>
 
-- [Your Name](https://github.com/yourusername) - Idea & Initial Work
+- [Mehvesh Shabbir](https://github.com/MehveshShabbir) - Idea & Initial Work
 
-See also the list of [contributors](https://github.com/yourusername/Hotel-Booking-System/contributors) who participated in this project.
 
-## 🎉 Acknowledgments <a name = "acknowledgments"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration from similar projects
-- References to C++ OOP and file handling documentation
 
